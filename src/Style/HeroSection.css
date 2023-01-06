@@ -1,0 +1,53 @@
+.right-side img {
+  height: 420px;
+}
+
+.purchase-btn {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 24px;
+}
+
+.purchase-btn li,
+a {
+  display: flex;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.Section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 114px 174px 0px;
+}
+
+.shop-btn {
+  background-color: #ff8957;
+  color: white;
+  padding: 16px 24px;
+}
+
+.View-btn {
+  border: 1px solid #316887;
+  color: #316887;
+  padding: 16px 24px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #4abeff;
+  margin-bottom: 48px;
+}
+
+.title h1 {
+  text-align: start;
+  padding: 0;
+  margin: 0;
+}
+
+.regular {
+  font-weight: 400;
+}
