@@ -20,7 +20,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #4abeff;
+  background-color: #003585;
   padding: 40px 76px;
 }
 
@@ -59,11 +59,26 @@ img {
   align-items: center;
 }
 
+
 .shape {
-  background-color: #ff8957;
-  height: 18px;
-  width: 18px;
+  background-color: #A7F65C;
   border-radius: 50px;
-  color: white;
+  color: #003585;
+  padding: 2px 5px;
+  font-size: 10px;
   text-align: center;
+}
+
+.title {
+  margin-bottom: 44px;
+}
+
+#top {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+#bottom {
+  font-size: 50px;
+  font-weight: 500;
 }

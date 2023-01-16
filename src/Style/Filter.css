@@ -1,0 +1,35 @@
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 0px 64px;
+  margin-top: 96px;
+}
+
+.filter-group {
+  display: flex;
+  gap: 14px;
+}
+
+.filter-group li {
+  list-style: none;
+  padding: 10px 0px;
+  width: 140px;
+  border: 1px solid #003585;
+  color: #003585;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.filter-group li:first-child {
+  background-color: #A7F65C;
+  color: white;
+  border: 0px solid;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 26px;
+  color: #003585;
+}

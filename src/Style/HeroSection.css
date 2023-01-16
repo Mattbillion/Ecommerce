@@ -1,53 +1,65 @@
-.right-side img {
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-height: 700px;
+  min-width: 375px;
+  min-height: 200px;
+  height: 520px;
+  background-color: #003585;
+  margin: 0px auto;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.title h1{
+  margin: 0px;
+  color: white;
+  text-align: start;
+}
+
+.button-group {
+  display: flex;
+  gap: 21px;
+  font-size: 16px;
+}
+
+.shop-now a{
+  text-decoration: none;
+  color: #003585;
+}
+
+.view-more a{
+  text-decoration: none;
+  color: white;
+}
+
+.shop-now {
+  padding: 16px 24px;
+  background-color: white;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.view-more {
+  padding: 16px 24px;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.ring img{
+  height: 451px;
+}
+
+.camera img {
   height: 420px;
 }
 
-.purchase-btn {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  gap: 24px;
+.left-side {
+  width: 290px;
 }
 
-.purchase-btn li,
-a {
-  display: flex;
-  text-decoration: none;
-  border-radius: 20px;
-}
-
-.Section-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 114px 174px 0px;
-}
-
-.shop-btn {
-  background-color: #ff8957;
-  color: white;
-  padding: 16px 24px;
-}
-
-.View-btn {
-  border: 1px solid #316887;
-  color: #316887;
-  padding: 16px 24px;
-}
-
-.title {
-  font-size: 36px;
-  font-weight: 700;
-  color: #4abeff;
-  margin-bottom: 48px;
-}
-
-.title h1 {
-  text-align: start;
-  padding: 0;
-  margin: 0;
-}
-
-.regular {
-  font-weight: 400;
+.right-side {
+  width: 50%;
 }

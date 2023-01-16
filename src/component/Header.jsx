@@ -3,7 +3,7 @@ export default function Header() {
   return (
     <div className="header-container">
       <div className="left">
-        <img src="./assets/logo.svg" alt="logo" />
+        <img src="./assets/logo.png" alt="logo" />
         <div className="search-bar">
           <input
             type="field"

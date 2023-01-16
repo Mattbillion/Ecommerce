@@ -1,12 +1,15 @@
 import "./App.css";
-import Header from "./component/Header";
 import HeroSection from "./component/HeroSection";
+import Filter from "./component/Filter";
+import ProductSection from "./component/ProductSection";
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <HeroSection />
+      <Filter />
+      <ProductSection />
     </div>
   );
 }

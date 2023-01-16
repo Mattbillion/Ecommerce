@@ -1,29 +1,26 @@
 import "../Style/HeroSection.css";
+import Header from "./Header";
 export default function HeroSection() {
   return (
-    <div className="Section-container">
+    <div>
+      <Header/>
+    <div className="container">
       <div className="left-side">
         <div className="title">
-          <h1>Canon</h1>
-          <h1 className="regular">Camera</h1>
+          <h1 id="top">CANON</h1>
+          <h1 id="bottom">Camera</h1>
         </div>
+        <div className="button-group">
+          <div className="shop-now"><a href="#">Shop now</a></div>
+          <div className="view-more"><a href="#">View more</a></div>
+        </div>
+      </div>
 
-        <ul className="purchase-btn">
-          <li>
-            <a className="shop-btn" href="a">
-              Shop now
-            </a>
-          </li>
-          <li>
-            <a className="View-btn" href="a">
-              View more
-            </a>
-          </li>
-        </ul>
-      </div>
+
       <div className="right-side">
-        <img src="./assets/Camera.png" alt="camera-pic" />
+        <div className="camera"><img src="./assets/Camera1.png" alt="" /></div>
       </div>
+    </div>
     </div>
   );
 }
