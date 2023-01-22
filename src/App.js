@@ -1,15 +1,22 @@
-import "./App.css";
-import HeroSection from "./component/HeroSection";
-import Filter from "./component/Filter";
-import ProductSection from "./component/ProductSection";
+import React, { useEffect, useState } from 'react';
+import { Link, Route, Routes } from "react-router-dom";
+import Main from './component/Main/Main';
+import Filter from './component/Filter';
+import Navigation from './component/Navigation/Navigation';
 
 
 function App() {
+  
+  
+
   return (
-    <div className="App">
-      <HeroSection />
-      <Filter />
-      <ProductSection />
+    <div>
+      <Navigation/>
+  
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/books" element={<Filter />} />
+      </Routes>
     </div>
   );
 }

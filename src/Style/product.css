@@ -1,36 +1,3 @@
-.item {
-  display: block;
-  max-width: 270px;
-  height: 100%;
-  padding: 16px;
-  border: 1px solid #B6B6B6;
-  border-radius: 16px;
-}
-
-.left {
-  display: inline-block;
-  text-align: start;
-}
-
-.cart-top img{
-  height: 164px;
-}
-
-.cart-bottom {
-  display: flex;
-}
-
-.product-name h1 {
-  font-size: 16px;
-}
-.product-instance p {
-  font-size: 15px;
-}
-
-.product-price h6 {
-  font-size: 18px;
-}
-
-.cart img {
-  height: 42px;
+.cart {
+  width: 320px;
 }

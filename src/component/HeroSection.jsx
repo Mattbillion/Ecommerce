@@ -3,24 +3,24 @@ import Header from "./Header";
 export default function HeroSection() {
   return (
     <div>
-      <Header/>
-    <div className="container">
-      <div className="left-side">
-        <div className="title">
-          <h1 id="top">CANON</h1>
-          <h1 id="bottom">Camera</h1>
-        </div>
-        <div className="button-group">
-          <div className="shop-now"><a href="#">Shop now</a></div>
-          <div className="view-more"><a href="#">View more</a></div>
-        </div>
+      <div className="hero-container">
+        <div className="hero-section">
+        <div className="hero-left">
+          <h1 className="Slogan">Perfection for all. Everything you need.</h1>
+          <h1 className="Brand">Alpha 7 III - Full-frame Interchangeable Lens Camera 24.2MP, 10FPS, 4K/30p</h1>
+        <div className="btn-group">
+          <ul>
+            <li className="shop-now">Shop now</li>
+            <li className="view-more">View more</li>
+          </ul>
+        </div> 
       </div>
 
-
-      <div className="right-side">
-        <div className="camera"><img src="./assets/Camera1.png" alt="" /></div>
+        <div className="hero-right">
+        <img className="camera" src=".\assets\Hero-section\Camera1.png" alt="Camera" />
+        </div>
+        </div>
       </div>
-    </div>
     </div>
   );
 }

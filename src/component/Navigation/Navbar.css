@@ -1,0 +1,69 @@
+input,
+button {
+    border-style: none;
+    padding: 16px 32px;
+}
+
+input {
+    width: 620px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: #F5F5F5;
+    border: 1px solid white;
+    outline-width: 0px;
+}
+
+button {
+    border-radius: 0px 50px 50px 0px;
+    background-color: none;
+    font-weight: 700;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003585;
+    padding: 32px 64px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    flex: 1;
+}
+
+.SignIn {
+    color: white;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.person {
+    height: 32px;
+}
+
+.cart-icon {
+    height: 24px;
+}
+
+.circle {
+    height: 16px;
+    width: 16px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #A7F65C;
+}
+
+.logo {
+    padding-right: 32px;
+}

@@ -1,0 +1,11 @@
+.ProductList-map {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin: 0px 64px; 
+}
+
+.map-wrap {
+    width: auto;
+}

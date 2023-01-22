@@ -1,65 +1,69 @@
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-height: 700px;
-  min-width: 375px;
-  min-height: 200px;
-  height: 520px;
+.hero-container {
+  height: 620px;
   background-color: #003585;
-  margin: 0px auto;
-  margin-top: 0px;
-  padding-top: 0px;
 }
 
-.title h1{
-  margin: 0px;
+.hero-section {
+  display: flex;
+  padding: 0px 72px;
+  height: 100%;
+}
+
+.hero-left {
+  width: 50%;
+}
+
+.hero-right {
+  width: 50%;
+}
+
+.camera {
+  height: 520px;
+  margin-top: 72px;
+}
+
+.Slogan {
+  font-size: 64px;
   color: white;
   text-align: start;
-}
-
-.button-group {
-  display: flex;
-  gap: 21px;
-  font-size: 16px;
-}
-
-.shop-now a{
-  text-decoration: none;
-  color: #003585;
-}
-
-.view-more a{
-  text-decoration: none;
-  color: white;
-}
-
-.shop-now {
-  padding: 16px 24px;
-  background-color: white;
-  border-radius: 50px;
   font-weight: 700;
+  margin-top: 124px;
+}
+
+.Brand {
+  color: white;
+  text-align: start;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+
+ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0px;
+  margin-top: 32px;
+}
+
+.shop-now{
+  color: #003585;
+  background-color: white;
+  padding: 12px 16px;
+  border-radius: 50px;
+  width: 160px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .view-more {
-  padding: 16px 24px;
-  border: 1px solid white;
+  color: #A7F65C;
+  background-color: #003585;
+  border: 1px solid #A7F65C;
+  padding: 12px 16px;
   border-radius: 50px;
-}
-
-.ring img{
-  height: 451px;
-}
-
-.camera img {
-  height: 420px;
-}
-
-.left-side {
-  width: 290px;
-}
-
-.right-side {
-  width: 50%;
+  width: 160px;
+  font-weight: 700;
+    text-align: center;
 }

@@ -1,18 +1,16 @@
-.filter-container {
+.filter-map {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   background-color: white;
-  margin: 0px 64px;
-  margin-top: 96px;
+  margin: 16px 64px;
 }
 
-.filter-group {
-  display: flex;
-  gap: 14px;
+.list {
+  gap: 12px;
 }
 
-.filter-group li {
+.filter-map button {
   list-style: none;
   padding: 10px 0px;
   width: 140px;
@@ -22,12 +20,13 @@
   font-weight: 700;
 }
 
-.filter-group li:first-child {
+.filter-map button:first-child {
   background-color: #A7F65C;
   color: white;
   border: 0px solid;
   font-weight: 700;
 }
+
 
 h1 {
   font-size: 26px;

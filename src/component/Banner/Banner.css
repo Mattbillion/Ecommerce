@@ -1,0 +1,9 @@
+.banner-container {
+    position: relative;
+    margin: 32px 64px;
+    height: 420px;
+    background-size: cover;
+    background-image: url(../../../public/assets/Banner/banner.png);
+    border-radius: 20px;
+}
+
