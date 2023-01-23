@@ -4,6 +4,7 @@ export const data2 = [
         cat: 'react',
         title: 'react',
         desc: 'React is famous library, which is created by facebook.',
+        image: "https://www.dpreview.com/files/p/E~products/sony_slta58/shots/fc0cfe482f1a454d815855380c8f8cd9.png",
     },
 
     {

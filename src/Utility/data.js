@@ -1,5 +1,5 @@
 export const data = [
-  { image: "https://www.dpreview.com/files/p/E~products/sony_slta58/shots/fc0cfe482f1a454d815855380c8f8cd9.png",
+  { image: "https://www.canon.com.au/-/media/images/canon/products/mirrorless-cameras/eos-r5-temp/tile-image-eosr5-1200x1200.ashx?mw=1200&hash=D6E43B947B880336BEDF0ED8C29FA0BC",
     name: "Sony Alpha 7M III",
     instance: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor tempor tellus",
     price: "$11,70",
@@ -7,15 +7,15 @@ export const data = [
     sale: "yes",
   },
 
-  { image: "https://www.dpreview.com/files/p/E~products/sony_slta58/shots/fc0cfe482f1a454d815855380c8f8cd9.png",
+  { image: "https://instax.com/common2/img/camera/camera_01_05.png",
     name: "Sony Alpha 7M III",
     instance: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor tempor tellus",
     price: "$11,70",
-    category: 2,
+    category: 1,
     sale: "yes",
   },
 
-  { image: "https://www.dpreview.com/files/p/E~products/sony_slta58/shots/fc0cfe482f1a454d815855380c8f8cd9.png",
+  { image: "https://in.canon/media/image/2022/11/01/c8c8ab88ead148e9b64490fdd764bcf4_EOS+R6+Mark+II+RF24-105mm+f4-7.1+IS+STM+front+slant.png",
     name: "Sony Alpha 7M III",
     instance: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor tempor tellus",
     price: "$11,70",
@@ -23,7 +23,7 @@ export const data = [
     sale: "yes",
   },
 
-  { image: "https://www.dpreview.com/files/p/E~products/sony_slta58/shots/fc0cfe482f1a454d815855380c8f8cd9.png",
+  { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi1Q5JuDUwiS8a-KwC_drhT0RoSli0bI016g&usqp=CAU",
     name: "Sony Alpha 7M III",
     instance: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor tempor tellus",
     price: "$11,70",
@@ -31,7 +31,7 @@ export const data = [
     sale: "yes",
   },
 
-   { image: "https://www.dpreview.com/files/p/E~products/sony_slta58/shots/fc0cfe482f1a454d815855380c8f8cd9.png",
+   { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRO6HiTNmksWN8rzSyY6OPqVCZ4ad_ynu1Ww&usqp=CAU",
     name: "Sony Alpha 7M III",
     instance: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor tempor tellus",
     price: "$11,70",
@@ -39,7 +39,7 @@ export const data = [
     sale: "yes",
   },
 
-   { image: "https://www.dpreview.com/files/p/E~products/sony_slta58/shots/fc0cfe482f1a454d815855380c8f8cd9.png",
+   { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWSsVtW_gEdHT_lTp0LAxbpE0yHKEnJ0ywrQ&usqp=CAU",
     name: "Sony Alpha 7M III",
     instance: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor tempor tellus",
     price: "$11,70",
@@ -47,7 +47,7 @@ export const data = [
     sale: "yes",
   },
 
-   { image: "https://www.dpreview.com/files/p/E~products/sony_slta58/shots/fc0cfe482f1a454d815855380c8f8cd9.png",
+   { image: "https://imaging.nikon.com/lineup/dslr/img/product_d850.png",
     name: "Sony Alpha 7M III",
     instance: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor tempor tellus",
     price: "$11,70",

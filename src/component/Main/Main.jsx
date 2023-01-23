@@ -1,16 +1,21 @@
 import Filter from "../Filter";
 import HeroSection from "../HeroSection";
-import Product from "../Products/Product";
 import { data } from "../../Utility/data"; 
-import ProductList from "../Products/ProductList";
 import Banner from "../Banner/Banner";
+import Productlist from '../Products/ProductList';
+import React, { useState } from "react";
 export default function  Main() {
+
+    const [newProductList, setProductList] = useState(data);
+
+    
+
     return (
         <div>
         <HeroSection />
         <Filter />
-        <ProductList />
-        <Banner />
+        <Productlist />
+        <Banner/>
         </div>
     )
 }
