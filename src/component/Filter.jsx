@@ -3,24 +3,19 @@ import React, { useEffect, useMemo, useState} from 'react';
 import { data } from "../Utility/data";
 
 
-export default function Filter() {
-  const categories = ["All", "Cameras", "Laptop", "Gears", "Sales"];
-  
+export default function Filter(props) {
 
-  function onFilterValueChanged() {
-    {data.filter((item) => {
-      return console.log(item.category === 1);
-    })}
-  }
+  const {handleCategories} = props;
 
   return (
     <div className="filter-map">
       <h1>Popular Items</h1>
-      <ul className="list">
-        {categories.map((category, index) => (
-            <button key={index} value={index} onClick={onFilterValueChanged}>{category}</button>
-        ))}
-      </ul>
+      <button onClick={handleCategories}>All</button>
+      <button onClick={handleCategories}>CPU</button>
+      <button onClick={handleCategories}>Motherboards</button>
+      <button onClick={handleCategories}>Graphic card</button>
+      <button onClick={handleCategories}>Phone</button>
+      <button onClick={handleCategories}>Laptop</button>
     </div>
   )
 }

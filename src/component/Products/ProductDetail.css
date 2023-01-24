@@ -1,0 +1,65 @@
+h3 ,h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.detail-container {
+  display: flex;
+  gap: 42px;
+}
+
+.left-image {
+  height: 561px;
+}
+
+.product-detail {
+  width: 300px;
+}
+
+.inspect-title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.inspect-price {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.review-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.star-list {
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 28px;
+  width: 100%;
+}
+
+.availability {
+  display: flex;
+  gap: 16px;
+  justify-content: left;
+  align-items: center;
+}
+
+.availability h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.availability img {
+  height: 14px;
+  width: auto;
+}
+
+.instock-span {
+  padding-left: 8px;
+}
