@@ -1,0 +1,4 @@
+const products = [
+  { id: "1", name: "Iphone 15", price: 100 },
+  { id: "2", name: "Iphone 13", price: 120 },
+];
