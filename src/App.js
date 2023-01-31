@@ -1,22 +1,18 @@
-import React, { useEffect, useState } from 'react';
 import { Link, Route, Routes } from "react-router-dom";
-import Main from './component/Main/Main';
-import Filter from './component/Filter';
-import Navigation from './component/Navigation/Navigation';
-
+import Footer from "./component/Footer/Footer";
+import Main from "./component/Main/Main";
+import NavBar from "./component/Navbar/NavBar";
 
 function App() {
-  
-  
-
   return (
     <div>
-      <Navigation/>
-  
+      <NavBar />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/books" element={<Filter />} />
+      
+        <Route path="/books" />
       </Routes>
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import "../Style/HeroSection.css";
-import Header from "./Header";
 export default function HeroSection() {
   return (
     <div>

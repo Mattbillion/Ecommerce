@@ -7,3 +7,35 @@
     border-radius: 20px;
 }
 
+.banner_text_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    right: 272px;
+}
+
+.banner_label {
+    color: #003585;
+    padding: 8px 16px;
+    background-color: white;
+    width: 120px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.banner_title {
+    color: #A7F65C;
+    font-size: 42px;
+}
+
+.sub_title {
+    color: white;
+    font-size: 18px;
+}
+
+.sub_title, .banner_title, .banner_label {
+    margin: 8px;
+}
+

@@ -1,0 +1,24 @@
+.footer_container {
+    background-color: #003585;
+    height: 374px;
+}
+
+.footer_logo {
+    margin: 64px;
+}
+
+
+
+.footer_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 64px;
+}
+
+.copyright {
+    width: 400px;
+    font-size: 14px;
+    color: white;
+}
+

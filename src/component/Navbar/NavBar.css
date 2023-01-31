@@ -1,0 +1,73 @@
+.NavBar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #003585;
+  padding: 32px 72px;
+}
+
+.search-btn,
+.search {
+  padding: 8px 16px;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 700;
+  height: 50px;
+}
+
+.search-btn {
+  border-radius: 0px 50px 50px 0px;
+  width: 120px;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.search_section {
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.search {
+  border-radius: 50px 0px 0px 50px;
+  width: 620px;
+  outline: none;
+}
+
+.search::placeholder {
+  color: #7a99c8;
+}
+
+.navbar_right {
+  display: flex;
+  gap: 16px;
+}
+
+.login_section {
+  display: flex;
+  align-items: center;
+}
+
+.cart_section {
+  display: flex;
+  align-items: center;
+}
+
+.signIn-btn {
+  border-style: none;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+}
+
+.user_img,
+.card {
+  height: 24px;
+}
+
+.counter {
+  color: white;
+  background-color: #a7f65c;
+  padding: 2px 7px;
+  border-radius: 50px;
+  font-size: 12px;
+}

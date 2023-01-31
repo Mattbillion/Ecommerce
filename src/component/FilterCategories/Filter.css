@@ -1,0 +1,41 @@
+.filter_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 42px 72px;
+}
+
+.filter_btn_group {
+  display: flex;
+  margin: 0px;
+}
+
+.filter_title {
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #003585;
+}
+
+.filter_btn {
+    border-style: none;
+    padding: 12px 42px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #003585;
+    background-color: white;
+    color: #003585;
+}
+
+.filter_btn:focus {
+    border-style: none;
+    padding: 12px 42px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #A7F65C;
+    background-color: #A7F65C;
+    color: white;
+}
+
