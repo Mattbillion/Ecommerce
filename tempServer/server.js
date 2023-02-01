@@ -8,10 +8,20 @@ const port = 2021;
 app.use(cors());
 app.use(bodyParser.json());
 
-app.get("/products", (request, response) => {
+app.get("/products", (req, res) => {
   console.log("GET products huselt orj irlee");
-  response.json(products);
+  fs.readFile("./Data/product.json", (err, data) => {
+    let savedData = JSON.parse(data);
+    if (err) {
+      res.status(500).send({ message: err });
+    } else {
+      res.status(200).send(savedData);
+    }
+  });
+  // response.json(products);
 });
+
+// app.get medeelel avah
 
 app.get("/product/:id", (request, response) => {
   const prodId = request.params.id;
