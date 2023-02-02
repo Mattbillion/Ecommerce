@@ -6,7 +6,7 @@ export default function Products ({data}) {
   console.log("From Products" ,data);
   return (
     <div className="products">
-      <Table size="sm" bgcolor="white">
+      <Table size="md" bgcolor="white" striped bordered hover>
         <thead>
           <tr>
             <th>Зураг</th>

@@ -1,3 +1,4 @@
+import Table from 'react-bootstrap/Table';
 export default function ProductRow ({itemData}) {
   console.log(itemData);
   console.log("console data", itemData.name)
