@@ -7,6 +7,7 @@ import Newsfeed from "../Newsfeed/Newsfeed";
 import BrandLogos from "./BrandLogos";
 export default function Main(data) {
   const [newProductList, setProductList] = useState(data);
+  console.log("from main", data);
 
   function handleCategories(event) {
     if (event.target.innerText === "All") {
@@ -23,7 +24,7 @@ export default function Main(data) {
     <div>
       <HeroSection />
       <Filter handleCategories={handleCategories} />
-      <ProductList filter={newProductList} />
+      <ProductList data={data} filter={newProductList} />
       <Banner />
       <Newsfeed />
       <BrandLogos />

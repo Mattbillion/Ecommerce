@@ -3,6 +3,7 @@ import "../FilterCategories/Filter.css";
 export default function Filter(props) {
   const { handleCategories } = props;
 
+
   return (
     <div className="filter_container">
       <h1 className="filter_title">Popular products</h1>

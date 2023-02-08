@@ -8,7 +8,7 @@ const port = 2021;
 app.use(cors());
 app.use(bodyParser.json());
 
-app.get("/products", (req, res) => {
+app.get("/", (req, res) => {
   console.log("GET products huselt orj irlee");
   fs.readFile("./Data/product.json", (err, data) => {
     let savedData = JSON.parse(data);

@@ -21,7 +21,7 @@ function App() {
   useEffect(() => {
     try {
       axios
-        .get("http://localhost:5000/products")
+        .get("http://localhost:2021/products")
         .then((res) => setData(res.data));
     } catch (err) {
       console.log(err.message);
@@ -32,7 +32,7 @@ function App() {
   return (
     <div>
       {/* <NavBar /> */}
-      <Aside asideMenu={asideMenu} />
+      {/* <Aside asideMenu={asideMenu} /> */}
       <Routes>
         <Route path="/" element={<Main data={data} />} />
         <Route path="/dashboard" element={<Dashboard />} />
