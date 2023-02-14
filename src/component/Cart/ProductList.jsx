@@ -4,7 +4,11 @@ import "../Cart/ProductList.css";
 
 export default function ProductList(props) {
   const { filter } = props;
+<<<<<<< HEAD
   console.log("from productlist" ,filter);
+=======
+  console.log("from", props)
+>>>>>>> origin/main
 
   return (
     <div className="productList_container">

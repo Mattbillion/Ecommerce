@@ -28,10 +28,15 @@ function App() {
 
   return (
     <div>
+<<<<<<< HEAD
       {/* <NavBar />
       <LoginForm /> */}
       <Aside asideMenu={asideMenu} /> 
      
+=======
+      {/* <NavBar /> */}
+      {/* <Aside asideMenu={asideMenu} /> */}
+>>>>>>> origin/main
       <Routes>
         <Route path="/" element={<Main data={data} />} />
         <Route path="/dashboard" element={<Dashboard />} />
