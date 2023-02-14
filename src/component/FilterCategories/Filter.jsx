@@ -7,7 +7,7 @@ export default function Filter(props) {
     <div className="filter_container">
       <h1 className="filter_title">Popular products</h1>
       <ul className="filter_btn_group">
-        <button className="filter_btn" onClick={handleCategories}>
+        <button className="filter_btn" onSele={handleCategories}>
           All
         </button>
         <button className="filter_btn" onClick={handleCategories}>

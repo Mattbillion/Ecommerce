@@ -1,4 +1,5 @@
 import "../Navbar/NavBar.css";
+import LoginForm from "../../Modal/LoginForm";
 export default function NavBar() {
   return (
     <div className="NavBar__container">
@@ -19,7 +20,9 @@ export default function NavBar() {
             src="./assets/Navigation/person.svg"
             alt="avatar"
           />
-          <button className="signIn-btn">Sign in</button>
+          <button className="signIn-btn" onClick={() => { <LoginForm />}}>
+            Sign in
+          </button>
         </div>
         <div className="cart_section">
           <img

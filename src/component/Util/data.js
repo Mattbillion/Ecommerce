@@ -1,21 +1,12 @@
 export const asideMenu = [
+  { name: "Хянах самбар", url: "/", img: "./assets/Navigation/Dashboard.svg" },
   {
-    nama: "Хянах самбар", url: "/"
+    name: "Бүтээгдэхүүнүүд",
+    url: "/products",
+    img: "./assets/Navigation/fi_monitor.svg",
   },
-  {
-    nama: "Бүтээгдэхүүнүүд", url: "/products"
-  },
-  {
-    nama: "Захиалгууд", url: "/orders"
-  },
-  {
-    nama: "Хэрэглэгчид", url: "/users"
-  },
-  {
-    nama: "Модератор", url: "/moderator"
-  },
-  {
-    nama: "Тохиргоо", url: "settings"
-  },
-
-]
+  { name: "Захиалгууд", url: "/orders", img: "./assets/Navigation/u_file-info-alt.svg"},
+  { name: "Хэрэглэгчид", url: "/users", img: "./assets/Navigation/fi_users.svg"},
+  { name: "Модератор", url: "/moderator", img: "./assets/Navigation/u_suitcase.svg"},
+  { name: "Тохиргоо", url: "settings", img: "./assets/Navigation/u_wrench.svg"},
+];
