@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     try {
       axios
-        .get("http://localhost:2021/products")
+        .get("http://localhost:2021/")
         .then((res) => setData(res.data));
     } catch (err) {
       console.log(err.message);
