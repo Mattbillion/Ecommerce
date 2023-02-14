@@ -5,7 +5,6 @@ import Filter from "../FilterCategories/Filter";
 import ProductList from "../Cart/ProductList";
 import Newsfeed from "../Newsfeed/Newsfeed";
 import BrandLogos from "./BrandLogos";
-<<<<<<< HEAD
 export default function Main(props) {
   const { data } = props;
   console.log("from main", data);
@@ -29,11 +28,6 @@ export default function Main(props) {
       default:
     }
   }, [selected]);
-=======
-export default function Main(data) {
-  const [newProductList, setProductList] = useState(data);
-  console.log("from main", data);
->>>>>>> origin/main
 
   function handleCategories(event) {
     if (event.target.innerText === "All") {
@@ -49,7 +43,6 @@ export default function Main(data) {
   return (
     <div>
       <HeroSection />
-<<<<<<< HEAD
       {/* <Filter handleCategories={handleCategories} />
        */}
       <button onClick={() => setSelected("All")}>All</button>
@@ -57,10 +50,6 @@ export default function Main(data) {
       <button onClick={() => setSelected("Motherboard")}>Motherboard</button>
       <button onClick={() => setSelected("Graphic card")}>Graphic card</button>
       <ProductList filter={filteredData} />
-=======
-      <Filter handleCategories={handleCategories} />
-      <ProductList data={data} filter={newProductList} />
->>>>>>> origin/main
       <Banner />
       <Newsfeed />
       <BrandLogos />
